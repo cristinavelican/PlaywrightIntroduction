@@ -18,8 +18,8 @@ Link to Playwright documentation:
 https://playwright.dev/docs/intro
 
 ## Lessons summary
-- [Lesson 1](https://gitlab.com/evanfrau/cypress-guild/-/tree/lesson-1): How to install Playwright
-- [Lesson 2](): How to run Playwright
+- [Lesson 1](https://github.com/cristinavelican/PlaywrightIntroduction/blob/main/Lessons/Lesson1-Installation.md): How to install Playwright
+- [Lesson 2](https://github.com/cristinavelican/PlaywrightIntroduction/blob/main/Lessons/Lesson2-Running.md): How to run Playwright
 - [Lesson 4](): Organize and Write a first test case
 - [Lesson 5](): Refactor the test
 - [Lesson 6](): More advanced Playwright actions

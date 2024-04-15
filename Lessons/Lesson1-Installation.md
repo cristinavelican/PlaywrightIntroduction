@@ -35,3 +35,6 @@ By default Chromium will be installed, if you want to run on proprietary browser
 ```
 npx playwright install msedge
 ```
+
+## Next lesson 
+[How to run Playwright](https://github.com/cristinavelican/PlaywrightIntroduction/blob/main/Lessons/Lesson2-Running.md)

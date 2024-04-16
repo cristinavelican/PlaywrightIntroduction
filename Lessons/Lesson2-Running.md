@@ -21,6 +21,7 @@ Once those are installed you will get autocomplete functionality for your tests,
 * Reveal the test output
 But more importanly, you will be able to run your tests directly by playing the icon in front of the test (by default it will run headless)
 
-
+## Next lesson 
+[Organize and Write a first test case]()
 
 

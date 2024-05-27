@@ -1,8 +1,9 @@
 # Playwright installation
 
 ## Prerequires
-You will need an IDE to run your code. I suggest installing Visual Studio Code as it's more lightweight and contains good extensions for Playwright --- https://code.visualstudio.com/
-You will need to have NodeJs and basics of npm 
+* You will need an IDE to run your code. I suggest installing Visual Studio Code as it's more lightweight and contains good extensions for Playwright --- https://code.visualstudio.com/
+
+* You will need to have NodeJs and basics of npm 
 On Windows, in order to install NodeJS you need to go to https://nodejs.org/download/ and download the latest version
 Once you have the .msi file you can click on it and install it
 Installation requires admin rights, so if you are on a Capgemini laptop, you can install NodeJs via the Service Central.

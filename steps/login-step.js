@@ -6,10 +6,10 @@ const { expect } = require("@playwright/test");
 const url = 'https://www.saucedemo.com/';
 let loginPage = new LoginPage();
 
-Given('I am a user with valid authentication credentials', async () => {
+Given('I am a user who visits the website', async () => {
     // Write code here that turns the phrase above into concrete actions
     await page.goto(url);
-  });
+});
 
 When('I fill in the credentials for {string}', async (user_type) => {
     let loginDetails = new ReadTestData().getTestData(user_type);
@@ -21,4 +21,12 @@ When('I fill in the credentials for {string}', async (user_type) => {
 Then('I can successfully be logged in', async () => {
     // Write code here that turns the phrase above into concrete actions
     await expect(page.locator(".app_logo")).toContainText("Swag Labs");
+});
+
+Then('I will be denied access with the following message {string}', async (error_message) => {
+    // Write code here that turns the phrase above into concrete actions
+    let errorMessage = await page.textContent(".error-message-container.error")
+    console.log("here here");
+    console.log(errorMessage);
+    await expect(page.locator(".error-message-container.error")).toContainText(error_message);
 });
